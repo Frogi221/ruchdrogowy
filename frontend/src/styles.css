@@ -1,0 +1,66 @@
+.added-data {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ff0000;
+    border-radius: 5px;
+  }
+  
+  .added-data h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .added-data p {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .added-data label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .added-data input {
+    font-size: 1.2rem;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .added-data button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: #428bca;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .added-data button:hover {
+    background-color: #3071a9;
+  }
+
+  .glowna-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .glowna-form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .glowna-form label:last-child {
+    margin-bottom: 0;
+  }
+  
+  .glowna-form button {
+    align-self: flex-start;
+    margin-top: 10px;
+  }
